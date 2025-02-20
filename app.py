@@ -6,8 +6,7 @@ st.header('Ventas de Vehiculos')
 
 st.write("")
 
-car_data = pd.read_csv(
-    '/Users/neferpitou/Documents/GitHub/vehicles_info/vehicles_us.csv')  # leer los datos
+car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 
 
 hist_button = st.button('Construir histograma')  # crear un botón
